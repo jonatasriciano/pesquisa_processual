@@ -1,0 +1,18 @@
+body {
+    font-size: 11px !important;
+    max-height: 425px;
+}
+.gifpj-index {
+    margin-top: 20px;
+}
+.infoPage {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.modal-body {
+    height: 265px !important;
+    overflow-y: scroll;
+}
+.datepicker {
+	    top: 100px !important;
+}

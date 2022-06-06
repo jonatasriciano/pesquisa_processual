@@ -1,0 +1,58 @@
+body {
+    font-size: 11px !important;
+    max-height: 425px;
+}
+.financeiro-index {
+    margin-top: 20px;
+}
+.infoPage {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+.modal-body {
+    height: 265px !important;
+    overflow-y: scroll;
+}
+.row > div {
+    margin-top: 5px !important;
+}
+.custom-file-upload {
+    display: block;
+    width: auto;
+    font-size: 16px;
+    margin-top: 30px;
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+
+.file-upload-wrapper {
+    position: relative; 
+    margin-bottom: 5px;
+}
+.file-upload-input {
+    width: $file-upload-size;
+    font-size: 16px;
+    padding: 11px 17px; 
+    border: none;
+    border: 1px solid #ccc;
+    @include transition(all 0.2s ease-in); 
+    float: left; /* IE 9 Fix */
+    &:hover, &:focus { 
+        outline: none; 
+    }
+}
+.file-upload-button {
+    cursor: pointer; 
+    display: inline-block; 
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 11px 20px; 
+    border: none;
+    border: 1px solid #ccc;
+    margin-left: -1px;  
+    float: left; /* IE 9 Fix */
+    @include transition(all 0.2s ease-in);
+}
